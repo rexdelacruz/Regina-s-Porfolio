@@ -1,0 +1,123 @@
+@media screen and (max-width: 1260px) {
+    .projects__cards {
+            width: 90%;
+        }
+}
+
+
+/* MOBILE*/
+
+/*ETERNA TULUM PAGE*/
+@media screen and (max-width: 545px){
+    
+    .project-container {
+        margin: 8% 6%;
+        
+    }
+
+    .project-title {
+        margin-bottom: 30px;
+        align-items: start;
+        
+    }
+
+    .project-title i {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .project-container h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .project__info {
+        flex-direction: column;
+    }
+
+    .project-cover {
+        width: 100%;
+    }
+
+    .project__gallery img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .project__gallery--design_container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project__gallery--design_block {
+        width: 100%;
+    }
+    .eternatulum-design-1, .eternatulum-design-2 {
+        height: 200px;
+        width: 100%;
+    }
+
+    .projects__role__tags-container {
+        width: 50%;
+    }
+
+    .project__description {
+        font-size: 14px;
+        width: 90%;
+
+    }
+
+    .project__gallery--design_mockup {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .footer__project--copyright {
+        width: 60%;
+        text-align: center;
+    }
+
+}
+
+/*HOME PAGE*/
+
+@media screen and (max-width: 545px) {
+    .hero__container img {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .hero__text {
+        width: 70%;
+    }
+    .hero__text h1 {
+        font-size: 35px;
+        line-height: 110%;
+        margin-bottom: 20px;
+    }
+    .hero__text p {
+        font-size: 16px;
+        
+    }
+    .hero__buttons--container {
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .icon__container {
+        margin: 10px;
+    }
+
+    .about-me__container {
+        padding: 0 10%
+    }
+
+    .skills__categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__headline {
+        flex-direction: column;
+        text-align: center;
+    }
+}

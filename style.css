@@ -1,0 +1,373 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*HERO SECTION*/
+
+.hero {
+    background-color: #004e66;
+    width: 100%;
+    /*height: 100vh;*/
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(/assets/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__container img {
+    margin-bottom: 40px;
+    width: 25%;
+}
+
+.hero__text {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.hero__text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero__text p {
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+}
+
+/* BUTTONS LINKS */
+
+.hero__buttons--container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.icon__container {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px
+}
+
+.hero__buttons--container ul {
+    list-style: none;
+}
+
+.icon__container li {
+    display: inline-block;
+    background-color: #00B9F2;
+    /*margin: 12px;*/
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.icon__container li a {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 86px;
+    width: 86px;
+
+    &:hover, &:active {
+        text-decoration: none;
+        
+    }
+}
+
+.icon__container li a i {
+    font-size: 40px;
+}
+
+.icon__container p {
+    margin-top: 10px;
+    color: white;
+}
+
+/*ABOUT ME SECTION*/
+
+.about-me {
+    background-color: #ffffff;
+    width: 100%;
+    /*height: 70vh;*/
+    height: 100%;
+    padding: 90px 0;
+}
+
+.about-me__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 23%;
+    height: 100%;
+
+}
+
+.about-me__container h2 {
+    font-size: 35px;
+    color: #00B9F2;
+    margin-bottom: 27px;
+}
+
+.about-me__info {
+    border: #00B9F2 solid 1px;
+    border-radius: 15px;
+    padding: 23px;
+    
+}
+
+.about-me__info p {
+    font-size: 18px;
+}
+
+/*PROJECTS SECTION*/
+
+.projects {
+    background-color: #ffffff;
+    width: 100%;
+    /*height: 150vh;*/
+    height: 100%;
+    padding: 70px 0;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects__title {
+    font-size: 35px;
+    color: #00B9F2;
+    margin-bottom: 27px;
+    
+}
+
+.projects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+
+.projects__cards--card {
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    border: #004e66 solid 1px;
+    border-radius: 13px;
+    overflow: hidden;
+    transition: 0.3s;
+    &:hover {
+        box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.13);
+        cursor: pointer;
+    }
+}
+
+.projects__cards--card a {
+    text-decoration: none;
+}
+
+.projects__cards--card__image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.projects__cards--card__image img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.projects__cards--card__text {
+    margin: 14px;
+}
+
+.projects__cards--card__text h4 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.projects__cards--card__text p {
+    font-size: 18px;
+    color: #000;
+}
+
+.projects__cards--card__tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.projects__cards--card__tag {
+    
+    background-color: #00B9F2;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.projects__cards--card__tag p {
+    font-size: 15px;
+    color: #000;
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    background-color: #F1F1F1;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+.skills__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills__container h2 {
+    font-size: 35px;
+    color: #00B9F2;
+    margin-bottom: 27px;
+}
+
+.skills__categories {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.skills__category_block {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.skills__category_block--icon {
+    display: inline-block;
+    background-color: #004e66;
+    border-radius: 50%;
+}
+
+.skills__category_block--icon i {
+    color: #fff;
+    font-size: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 90px;
+    width: 90px;
+
+}
+
+.skills__category_block--text h4 {
+    font-size: 24px;
+    color: #00B9F2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.skills__category_block--text p {
+    font-size: 18px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #F1F1F1;
+    height: 380px;
+}
+
+.footer__container {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__headline {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+.footer__headline1 {
+    margin-right: 10px;
+    color: #00B9F2;
+}
+
+.footer__headline2 {
+    color: #002C3A;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    
+    border: none;
+    outline: none;
+    background-color: #002C3A;
+    color: white;
+    cursor: pointer;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #004e66;
+}

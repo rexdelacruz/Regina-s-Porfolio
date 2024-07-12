@@ -1,0 +1,194 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* PROJECT SECTION*/
+.project-section {
+    width: 100%;
+}
+.project-container {
+    margin: 9% 15%;
+}
+
+
+.project-title a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.project-title i {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #004e66;
+    transition: 0.3s;
+    &:hover {
+        color: #00B9F2;
+    }
+}
+
+
+
+.project-container {
+    /* margin: 100px 200px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container h2 {
+    font-size: 45px;
+    color: #00B9F2;
+    margin-bottom: 27px;
+}
+
+.project__info {
+    display: flex;
+    gap: 10px;
+}
+
+.project__info--industry {
+    width: 150px;
+}
+
+.project__info h4 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.project__info--industry p {
+    font-size: 18px;
+}
+
+.project__info--role  h4{
+    font-size: 20px;
+}
+
+.project__description {
+    margin: 50px 0;
+    font-size: 18px;
+}
+
+/*GALLERY*/
+
+/*CALISTICKERS GALLERY*/
+.project__gallery--design_container--calistickers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 100%;
+}
+
+.calistickers_image{
+    width: 510px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+/*------------*/
+
+.project__gallery {
+    text-align: center;
+}
+
+.project-cover{
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.project__gallery img{
+    background-repeat: none;
+    background-size: cover;
+    width: 80%;
+}
+
+
+.projects__role__tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.projects__role__tag {
+
+    background-color: #00B9F2;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.projects__role__tag p {
+    font-size: 15px;
+    color: #000;
+}
+
+.project__gallery--design_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project__gallery--design_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+}
+
+/*PROJECTS DESIGN BLOCK 2*/
+
+.project__gallery--design_block--2 {
+    display: flex;
+    justify-content: center;
+}
+
+.eternatulum-design-1 {
+    overflow: hidden;
+    height: 50%;
+    background-image: url(/assets/Eterna\ tulum_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.eternatulum-design-2 {
+    overflow: hidden;
+    height: 50%;
+    background-image: url(/assets/Eterna\ tulum_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.project__gallery--design_mockup {
+    width: 40%;
+}
+
+.footer__project {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__project--copyright {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
